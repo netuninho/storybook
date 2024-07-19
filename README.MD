@@ -7,3 +7,5 @@
 - `yarn add --dev typescript @types/react @types/node`
 - `npx gitignore node`
 - `npx storybook init`
+
+https://storybook-seven-sandy.vercel.app/?path=/story/intro-welcome--page
