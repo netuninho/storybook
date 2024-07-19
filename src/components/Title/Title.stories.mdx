@@ -1,0 +1,19 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
+import Title from './Title.tsx';
+
+<Meta title="Components/H1"/>
+
+# h1
+
+Design padrão para títulos
+
+## h1 Example
+
+<Canvas>
+  <Story
+    name="h1 Example"
+    args={{ children: 'Título' }}
+  >
+    {(args) => <Title {...args} />}
+  </Story>
+</Canvas>
